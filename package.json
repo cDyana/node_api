@@ -1,0 +1,32 @@
+{
+  "name": "cuisinenode",
+  "version": "1.0.0",
+  "description": "projet examen",
+  "main": "server.js",
+  "scripts": {
+    "serve": "server.js",
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --inline --hot --host 0.0.0.0 --public customname.serveo.net"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "azure": "^2.3.1-preview",
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.19.0",
+    "build": "^0.1.4",
+    "cli": "^1.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "googleapis": "^39.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^1.7.0",
+    "nodemon": "^1.19.3",
+    "sequelize": "^5.19.3",
+    "webpack": "^4.41.2"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.10"
+  }
+}
